@@ -1,0 +1,31 @@
+@import "../vendor/normalize.css";
+@import "../vendor/fonts/Inter/inter.css";
+@import "../blocks/section.css";
+@import "../blocks/cover.css";
+@import "../blocks/footer.css";
+@import "../blocks/header.css";
+@import "../blocks/intro.css";
+@import "../blocks/lead.css";
+@import "../blocks/photo-grid.css";
+@import "../blocks/places.css";
+
+
+*|*{
+    margin:0px;
+    padding:0px;
+}
+
+.page{
+    background-color: #2A2C2F;
+    color:white;
+    width:100%;
+}
+
+body{
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+    width:100%;
+}
+
+html{
+    background-color: #2A2C2F;
+}

@@ -1,0 +1,205 @@
+.places__table{
+    max-width:987px;
+    margin: 92px auto;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+    box-sizing: border-box;
+}
+
+.places__title{
+    max-width: 484px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+}
+
+.places__image{
+    max-width:460px;
+    width:100%;
+    margin-top: 48px;
+    box-sizing: border-box;
+}
+
+.places__url-header{
+    display:flex;
+    flex-direction: column;
+    grid-column:2 / 2;
+    grid-row: 1 / 2;
+    align-self: end;
+}
+
+.places__button{
+    width:355px;
+    height:48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-justify: center;
+    background: #0278FE;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 4px;
+    padding: 13px 18px;
+    box-sizing: border-box;
+    margin-top:48px;
+    grid-area: 3/1/4/2;
+}
+
+.places__button-text{
+        width: 288px;
+        height:48px;
+        text-decoration: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        align-self: center;
+}
+.places__button_text:visited{
+    color: white;
+}
+
+.places__button:hover{
+    cursor: url("../vendor/Images/hands_buttom.svg"), default;
+}
+
+.places__author{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #AAAAAA;
+}
+
+.places__subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.places__text{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-area: 2 / 2 / 4 / 3;
+    gap:25px;
+    margin-top: 48px;
+}
+
+.places__paragraph{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+}
+
+@media (max-width:992px){
+    .places__table{
+        max-width:733px;
+        margin: 88px auto 92px;
+        gap:0px;
+    }
+    .places__title{
+        max-width: 340px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .places__image{
+        max-width: 340px;
+    }
+    .places__author{
+        max-width:365px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #AAAAAA;
+    }
+    .places__subtitle{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .places__text{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        grid-area: 2 / 2 / 4 / 3;
+        gap:25px;
+        margin-top: 48px;
+    }
+    .places__paragraph{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 163%;
+    }
+}
+
+@media (max-width:661px){
+    .places{
+        margin-top:62px;
+    }
+    .places__table{
+        display:flex;
+        flex-direction: column;
+        align-items: self-start;
+        max-width:733px;
+        margin: 0 auto;
+        gap:0px;
+        
+    }
+    .places__title{
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        padding:0 16px;
+        margin-top: 50px;
+
+    }
+    .places__image{
+        max-width: 340px;
+        margin:0 0 30px;
+    }
+    .places__url-header{
+        margin:30px 0 22px;
+        padding:0 16px;
+        box-sizing: border-box;
+        align-self: self-start;
+    }
+
+    .places__author{
+        max-width:288px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.12em;
+        }
+    .places__subtitle{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .places__text{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 48px;
+        gap:7px;
+    }
+    .places__paragraph{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        padding:0 16px;
+        box-sizing: border-box;
+    }
+    .places__buttom{
+        margin:20px 16px 37px;
+        box-sizing: border-box;
+    }
+}
