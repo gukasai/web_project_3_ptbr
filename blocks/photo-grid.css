@@ -1,4 +1,4 @@
-.photo-grid__image-grid{  
+.photo-grid{  
     width:100%;
     display:grid;
     grid-template-columns: repeat(4 , 1fr);
@@ -14,15 +14,14 @@
 }
 
 @media (max-width:992px){
-    .photo-grid__image-grid{
+    .photo-grid{
         grid-template-columns: repeat(2, 1fr);
         margin:0 auto;
     }
 }
 
 @media (max-width:661px){
-    .photo-grid__image-grid{
-    grid-template-columns: repeat(2, 1fr);
-    margin:0 auto;
+    .photo-grid{
+    grid-template-columns: repeat(1, 1fr);
 }
 }
